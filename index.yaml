@@ -4,7 +4,7 @@ entries:
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -25,16 +25,16 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-4.4.0/minecraft-4.4.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-4.4.0/minecraft-4.4.0.tgz
     version: 4.4.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
-          url: https://hub.docker.com/r/itzg/minecraft-server
+          url: https://hub.docker.com/r/streber42/minecraft-server
     apiVersion: v1
     appVersion: SeeValues
     created: "2022-09-17T20:05:25.769958922Z"
@@ -53,16 +53,16 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-4.3.0/minecraft-4.3.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-4.3.0/minecraft-4.3.0.tgz
     version: 4.3.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
-          url: https://hub.docker.com/r/itzg/minecraft-server
+          url: https://hub.docker.com/r/streber42/minecraft-server
     apiVersion: v1
     appVersion: SeeValues
     created: "2022-08-07T16:54:29.942786036Z"
@@ -81,14 +81,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-4.2.0/minecraft-4.2.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-4.2.0/minecraft-4.2.0.tgz
     version: 4.2.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -109,14 +109,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-4.1.0/minecraft-4.1.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-4.1.0/minecraft-4.1.0.tgz
     version: 4.1.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -137,14 +137,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-4.0.0/minecraft-4.0.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-4.0.0/minecraft-4.0.0.tgz
     version: 4.0.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -165,14 +165,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.10.0/minecraft-3.10.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.10.0/minecraft-3.10.0.tgz
     version: 3.10.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -193,14 +193,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.9.0/minecraft-3.9.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.9.0/minecraft-3.9.0.tgz
     version: 3.9.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -221,14 +221,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.8.4/minecraft-3.8.4.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.8.4/minecraft-3.8.4.tgz
     version: 3.8.4
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -249,14 +249,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.8.3/minecraft-3.8.3.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.8.3/minecraft-3.8.3.tgz
     version: 3.8.3
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -277,14 +277,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.8.2/minecraft-3.8.2.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.8.2/minecraft-3.8.2.tgz
     version: 3.8.2
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -305,14 +305,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.8.1/minecraft-3.8.1.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.8.1/minecraft-3.8.1.tgz
     version: 3.8.1
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -333,14 +333,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.8.0/minecraft-3.8.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.8.0/minecraft-3.8.0.tgz
     version: 3.8.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -361,14 +361,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.7.2/minecraft-3.7.2.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.7.2/minecraft-3.7.2.tgz
     version: 3.7.2
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -389,14 +389,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.7.1/minecraft-3.7.1.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.7.1/minecraft-3.7.1.tgz
     version: 3.7.1
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -417,14 +417,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.7.0/minecraft-3.7.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.7.0/minecraft-3.7.0.tgz
     version: 3.7.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -445,14 +445,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.6.7/minecraft-3.6.7.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.6.7/minecraft-3.6.7.tgz
     version: 3.6.7
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -473,14 +473,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.6.6/minecraft-3.6.6.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.6.6/minecraft-3.6.6.tgz
     version: 3.6.6
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -501,14 +501,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.6.5/minecraft-3.6.5.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.6.5/minecraft-3.6.5.tgz
     version: 3.6.5
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -529,14 +529,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.6.4/minecraft-3.6.4.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.6.4/minecraft-3.6.4.tgz
     version: 3.6.4
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -557,14 +557,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.6.3/minecraft-3.6.3.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.6.3/minecraft-3.6.3.tgz
     version: 3.6.3
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -585,14 +585,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.6.2/minecraft-3.6.2.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.6.2/minecraft-3.6.2.tgz
     version: 3.6.2
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -613,14 +613,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.6.1/minecraft-3.6.1.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.6.1/minecraft-3.6.1.tgz
     version: 3.6.1
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -641,14 +641,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.6.0/minecraft-3.6.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.6.0/minecraft-3.6.0.tgz
     version: 3.6.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -669,14 +669,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.5.0/minecraft-3.5.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.5.0/minecraft-3.5.0.tgz
     version: 3.5.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -697,14 +697,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.4.2/minecraft-3.4.2.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.4.2/minecraft-3.4.2.tgz
     version: 3.4.2
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -725,14 +725,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.4.1/minecraft-3.4.1.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.4.1/minecraft-3.4.1.tgz
     version: 3.4.1
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -753,14 +753,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.4.0/minecraft-3.4.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.4.0/minecraft-3.4.0.tgz
     version: 3.4.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -781,14 +781,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.3.0/minecraft-3.3.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.3.0/minecraft-3.3.0.tgz
     version: 3.3.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -809,14 +809,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.2.0/minecraft-3.2.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.2.0/minecraft-3.2.0.tgz
     version: 3.2.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -837,14 +837,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.1.8/minecraft-3.1.8.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.1.8/minecraft-3.1.8.tgz
     version: 3.1.8
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -865,14 +865,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.1.7/minecraft-3.1.7.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.1.7/minecraft-3.1.7.tgz
     version: 3.1.7
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -893,14 +893,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.1.6/minecraft-3.1.6.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.1.6/minecraft-3.1.6.tgz
     version: 3.1.6
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -921,14 +921,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.1.5/minecraft-3.1.5.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.1.5/minecraft-3.1.5.tgz
     version: 3.1.5
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -949,14 +949,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.1.4/minecraft-3.1.4.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.1.4/minecraft-3.1.4.tgz
     version: 3.1.4
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -977,14 +977,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.1.3/minecraft-3.1.3.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.1.3/minecraft-3.1.3.tgz
     version: 3.1.3
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -1005,14 +1005,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.0.3/minecraft-3.0.3.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.0.3/minecraft-3.0.3.tgz
     version: 3.0.3
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -1033,14 +1033,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.0.2/minecraft-3.0.2.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.0.2/minecraft-3.0.2.tgz
     version: 3.0.2
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -1061,14 +1061,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-3.0.1/minecraft-3.0.1.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-3.0.1/minecraft-3.0.1.tgz
     version: 3.0.1
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -1089,14 +1089,14 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.1.5/minecraft-2.1.5.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.1.5/minecraft-2.1.5.tgz
     version: 2.1.5
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-server
+          url: https://github.com/streber42/docker-minecraft-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-server
     apiVersion: v1
@@ -1117,9 +1117,9 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.1.4/minecraft-2.1.4.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.1.4/minecraft-2.1.4.tgz
     version: 2.1.4
   - apiVersion: v1
     appVersion: SeeValues
@@ -1139,12 +1139,12 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-server/~/dockerfile/
-    - https://github.com/itzg/docker-minecraft-server
-    - https://github.com/itzg/docker-minecraft-bedrock-server
+    - https://github.com/streber42/docker-minecraft-server
+    - https://github.com/streber42/docker-minecraft-bedrock-server
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.1.3/minecraft-2.1.3.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.1.3/minecraft-2.1.3.tgz
     version: 2.1.3
   - apiVersion: v1
     appVersion: SeeValues
@@ -1164,12 +1164,12 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-server/~/dockerfile/
-    - https://github.com/itzg/docker-minecraft-server
-    - https://github.com/itzg/docker-minecraft-bedrock-server
+    - https://github.com/streber42/docker-minecraft-server
+    - https://github.com/streber42/docker-minecraft-bedrock-server
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.1.2/minecraft-2.1.2.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.1.2/minecraft-2.1.2.tgz
     version: 2.1.2
   - apiVersion: v1
     appVersion: SeeValues
@@ -1189,12 +1189,12 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-server/~/dockerfile/
-    - https://github.com/itzg/docker-minecraft-server
-    - https://github.com/itzg/docker-minecraft-bedrock-server
+    - https://github.com/streber42/docker-minecraft-server
+    - https://github.com/streber42/docker-minecraft-bedrock-server
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.1.1/minecraft-2.1.1.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.1.1/minecraft-2.1.1.tgz
     version: 2.1.1
   - apiVersion: v1
     appVersion: SeeValues
@@ -1214,12 +1214,12 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-server/~/dockerfile/
-    - https://github.com/itzg/docker-minecraft-server
-    - https://github.com/itzg/docker-minecraft-bedrock-server
+    - https://github.com/streber42/docker-minecraft-server
+    - https://github.com/streber42/docker-minecraft-bedrock-server
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.1.0/minecraft-2.1.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.1.0/minecraft-2.1.0.tgz
     version: 2.1.0
   - apiVersion: v1
     appVersion: SeeValues
@@ -1239,12 +1239,12 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-server/~/dockerfile/
-    - https://github.com/itzg/docker-minecraft-server
-    - https://github.com/itzg/docker-minecraft-bedrock-server
+    - https://github.com/streber42/docker-minecraft-server
+    - https://github.com/streber42/docker-minecraft-bedrock-server
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.0.13/minecraft-2.0.13.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.0.13/minecraft-2.0.13.tgz
     version: 2.0.13
   - apiVersion: v1
     appVersion: SeeValues
@@ -1264,12 +1264,12 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-server/~/dockerfile/
-    - https://github.com/itzg/docker-minecraft-server
-    - https://github.com/itzg/docker-minecraft-bedrock-server
+    - https://github.com/streber42/docker-minecraft-server
+    - https://github.com/streber42/docker-minecraft-bedrock-server
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.0.12/minecraft-2.0.12.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.0.12/minecraft-2.0.12.tgz
     version: 2.0.12
   - apiVersion: v1
     appVersion: SeeValues
@@ -1289,12 +1289,12 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-server/~/dockerfile/
-    - https://github.com/itzg/docker-minecraft-server
-    - https://github.com/itzg/docker-minecraft-bedrock-server
+    - https://github.com/streber42/docker-minecraft-server
+    - https://github.com/streber42/docker-minecraft-bedrock-server
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.0.11/minecraft-2.0.11.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.0.11/minecraft-2.0.11.tgz
     version: 2.0.11
   - apiVersion: v1
     appVersion: SeeValues
@@ -1314,12 +1314,12 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-server/~/dockerfile/
-    - https://github.com/itzg/docker-minecraft-server
-    - https://github.com/itzg/docker-minecraft-bedrock-server
+    - https://github.com/streber42/docker-minecraft-server
+    - https://github.com/streber42/docker-minecraft-bedrock-server
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.0.10/minecraft-2.0.10.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.0.10/minecraft-2.0.10.tgz
     version: 2.0.10
   - apiVersion: v1
     appVersion: SeeValues
@@ -1339,12 +1339,12 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-server/~/dockerfile/
-    - https://github.com/itzg/docker-minecraft-server
-    - https://github.com/itzg/docker-minecraft-bedrock-server
+    - https://github.com/streber42/docker-minecraft-server
+    - https://github.com/streber42/docker-minecraft-bedrock-server
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.0.9/minecraft-2.0.9.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.0.9/minecraft-2.0.9.tgz
     version: 2.0.9
   - apiVersion: v1
     appVersion: SeeValues
@@ -1364,12 +1364,12 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-server/~/dockerfile/
-    - https://github.com/itzg/docker-minecraft-server
-    - https://github.com/itzg/docker-minecraft-bedrock-server
+    - https://github.com/streber42/docker-minecraft-server
+    - https://github.com/streber42/docker-minecraft-bedrock-server
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.0.8/minecraft-2.0.8.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.0.8/minecraft-2.0.8.tgz
     version: 2.0.8
   - apiVersion: v1
     appVersion: SeeValues
@@ -1389,12 +1389,12 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-server/~/dockerfile/
-    - https://github.com/itzg/docker-minecraft-server
-    - https://github.com/itzg/docker-minecraft-bedrock-server
+    - https://github.com/streber42/docker-minecraft-server
+    - https://github.com/streber42/docker-minecraft-bedrock-server
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.0.7/minecraft-2.0.7.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.0.7/minecraft-2.0.7.tgz
     version: 2.0.7
   - apiVersion: v1
     appVersion: SeeValues
@@ -1414,12 +1414,12 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-server/~/dockerfile/
-    - https://github.com/itzg/docker-minecraft-server
-    - https://github.com/itzg/docker-minecraft-bedrock-server
+    - https://github.com/streber42/docker-minecraft-server
+    - https://github.com/streber42/docker-minecraft-bedrock-server
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.0.6/minecraft-2.0.6.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.0.6/minecraft-2.0.6.tgz
     version: 2.0.6
   - apiVersion: v1
     appVersion: SeeValues
@@ -1439,11 +1439,11 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-server/~/dockerfile/
-    - https://github.com/itzg/dockerfiles
+    - https://github.com/streber42/dockerfiles
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.0.5/minecraft-2.0.5.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.0.5/minecraft-2.0.5.tgz
     version: 2.0.5
   - apiVersion: v1
     appVersion: 1.14.4
@@ -1463,11 +1463,11 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-server/~/dockerfile/
-    - https://github.com/itzg/dockerfiles
+    - https://github.com/streber42/dockerfiles
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.0.4/minecraft-2.0.4.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.0.4/minecraft-2.0.4.tgz
     version: 2.0.4
   - apiVersion: v1
     appVersion: 1.14.4
@@ -1487,11 +1487,11 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-server/~/dockerfile/
-    - https://github.com/itzg/dockerfiles
+    - https://github.com/streber42/dockerfiles
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.0.3/minecraft-2.0.3.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.0.3/minecraft-2.0.3.tgz
     version: 2.0.3
   - apiVersion: v1
     appVersion: 1.14.4
@@ -1511,11 +1511,11 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-server/~/dockerfile/
-    - https://github.com/itzg/dockerfiles
+    - https://github.com/streber42/dockerfiles
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.0.2/minecraft-2.0.2.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.0.2/minecraft-2.0.2.tgz
     version: 2.0.2
   - apiVersion: v1
     appVersion: 1.14.4
@@ -1535,11 +1535,11 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-server/~/dockerfile/
-    - https://github.com/itzg/dockerfiles
+    - https://github.com/streber42/dockerfiles
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.0.1/minecraft-2.0.1.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.0.1/minecraft-2.0.1.tgz
     version: 2.0.1
   - apiVersion: v1
     appVersion: 1.14.4
@@ -1559,17 +1559,17 @@ entries:
       name: itzg
     name: minecraft
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-server/~/dockerfile/
-    - https://github.com/itzg/dockerfiles
+    - https://github.com/streber42/dockerfiles
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-2.0.0/minecraft-2.0.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-2.0.0/minecraft-2.0.0.tgz
     version: 2.0.0
   minecraft-bedrock:
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-bedrock-server
+          url: https://github.com/streber42/docker-minecraft-bedrock-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-bedrock-server
     apiVersion: v1
@@ -1590,14 +1590,14 @@ entries:
       name: itzg
     name: minecraft-bedrock
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-bedrock-2.0.1/minecraft-bedrock-2.0.1.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-bedrock-2.0.1/minecraft-bedrock-2.0.1.tgz
     version: 2.0.1
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-bedrock-server
+          url: https://github.com/streber42/docker-minecraft-bedrock-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-bedrock-server
     apiVersion: v1
@@ -1618,14 +1618,14 @@ entries:
       name: itzg
     name: minecraft-bedrock
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-bedrock-2.0.0/minecraft-bedrock-2.0.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-bedrock-2.0.0/minecraft-bedrock-2.0.0.tgz
     version: 2.0.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-bedrock-server
+          url: https://github.com/streber42/docker-minecraft-bedrock-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-bedrock-server
     apiVersion: v1
@@ -1646,14 +1646,14 @@ entries:
       name: itzg
     name: minecraft-bedrock
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-bedrock-1.2.1/minecraft-bedrock-1.2.1.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-bedrock-1.2.1/minecraft-bedrock-1.2.1.tgz
     version: 1.2.1
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-bedrock-server
+          url: https://github.com/streber42/docker-minecraft-bedrock-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-bedrock-server
     apiVersion: v1
@@ -1674,14 +1674,14 @@ entries:
       name: itzg
     name: minecraft-bedrock
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-bedrock-1.2.0/minecraft-bedrock-1.2.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-bedrock-1.2.0/minecraft-bedrock-1.2.0.tgz
     version: 1.2.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-minecraft-bedrock-server
+          url: https://github.com/streber42/docker-minecraft-bedrock-server
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/minecraft-bedrock-server
     apiVersion: v1
@@ -1702,9 +1702,9 @@ entries:
       name: itzg
     name: minecraft-bedrock
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-bedrock-1.1.9/minecraft-bedrock-1.1.9.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-bedrock-1.1.9/minecraft-bedrock-1.1.9.tgz
     version: 1.1.9
   - apiVersion: v1
     appVersion: "1.16"
@@ -1724,11 +1724,11 @@ entries:
       name: itzg
     name: minecraft-bedrock
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-bedrock-server/~/dockerfile/
-    - https://github.com/itzg/dockerfiles
+    - https://github.com/streber42/dockerfiles
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-bedrock-1.1.8/minecraft-bedrock-1.1.8.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-bedrock-1.1.8/minecraft-bedrock-1.1.8.tgz
     version: 1.1.8
   - apiVersion: v1
     appVersion: "1.16"
@@ -1748,11 +1748,11 @@ entries:
       name: itzg
     name: minecraft-bedrock
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-bedrock-server/~/dockerfile/
-    - https://github.com/itzg/dockerfiles
+    - https://github.com/streber42/dockerfiles
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-bedrock-1.1.7/minecraft-bedrock-1.1.7.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-bedrock-1.1.7/minecraft-bedrock-1.1.7.tgz
     version: 1.1.7
   - apiVersion: v1
     appVersion: "1.16"
@@ -1772,11 +1772,11 @@ entries:
       name: itzg
     name: minecraft-bedrock
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-bedrock-server/~/dockerfile/
-    - https://github.com/itzg/dockerfiles
+    - https://github.com/streber42/dockerfiles
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-bedrock-1.1.6/minecraft-bedrock-1.1.6.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-bedrock-1.1.6/minecraft-bedrock-1.1.6.tgz
     version: 1.1.6
   - apiVersion: v1
     appVersion: "1.16"
@@ -1796,11 +1796,11 @@ entries:
       name: itzg
     name: minecraft-bedrock
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-bedrock-server/~/dockerfile/
-    - https://github.com/itzg/dockerfiles
+    - https://github.com/streber42/dockerfiles
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-bedrock-1.1.5/minecraft-bedrock-1.1.5.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-bedrock-1.1.5/minecraft-bedrock-1.1.5.tgz
     version: 1.1.5
   - apiVersion: v1
     appVersion: "1.16"
@@ -1820,11 +1820,11 @@ entries:
       name: itzg
     name: minecraft-bedrock
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-bedrock-server/~/dockerfile/
-    - https://github.com/itzg/dockerfiles
+    - https://github.com/streber42/dockerfiles
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-bedrock-1.1.4/minecraft-bedrock-1.1.4.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-bedrock-1.1.4/minecraft-bedrock-1.1.4.tgz
     version: 1.1.4
   - apiVersion: v1
     appVersion: "1.16"
@@ -1844,11 +1844,11 @@ entries:
       name: itzg
     name: minecraft-bedrock
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-bedrock-server/~/dockerfile/
-    - https://github.com/itzg/dockerfiles
+    - https://github.com/streber42/dockerfiles
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-bedrock-1.1.2/minecraft-bedrock-1.1.2.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-bedrock-1.1.2/minecraft-bedrock-1.1.2.tgz
     version: 1.1.2
   - apiVersion: v1
     appVersion: "1.16"
@@ -1868,11 +1868,11 @@ entries:
       name: itzg
     name: minecraft-bedrock
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-bedrock-server/~/dockerfile/
-    - https://github.com/itzg/dockerfiles
+    - https://github.com/streber42/dockerfiles
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-bedrock-1.1.1/minecraft-bedrock-1.1.1.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-bedrock-1.1.1/minecraft-bedrock-1.1.1.tgz
     version: 1.1.1
   - apiVersion: v1
     appVersion: 1.14.4
@@ -1892,11 +1892,11 @@ entries:
       name: itzg
     name: minecraft-bedrock
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-bedrock-server/~/dockerfile/
-    - https://github.com/itzg/dockerfiles
+    - https://github.com/streber42/dockerfiles
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-bedrock-1.1.0/minecraft-bedrock-1.1.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-bedrock-1.1.0/minecraft-bedrock-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.14.4
@@ -1916,17 +1916,17 @@ entries:
       name: itzg
     name: minecraft-bedrock
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     - https://hub.docker.com/r/itzg/minecraft-bedrock-server/~/dockerfile/
-    - https://github.com/itzg/dockerfiles
+    - https://github.com/streber42/dockerfiles
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-bedrock-1.0.0/minecraft-bedrock-1.0.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-bedrock-1.0.0/minecraft-bedrock-1.0.0.tgz
     version: 1.0.0
   minecraft-proxy:
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-bungeecord
+          url: https://github.com/streber42/docker-bungeecord
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/bungeecord
     apiVersion: v1
@@ -1934,7 +1934,7 @@ entries:
     created: "2022-09-27T20:04:13.859483488Z"
     description: Minecraft proxy server (BungeeCord, Waterfall, Velocity, etc.)
     digest: 4e34467b476788744fcf0f39d9404509e7cb56f6f7562f228fd903e0428e8d4a
-    home: https://github.com/itzg/minecraft-server-charts
+    home: https://github.com/streber42/minecraft-server-charts
     keywords:
     - proxy
     - game
@@ -1950,14 +1950,14 @@ entries:
       name: itzg
     name: minecraft-proxy
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-proxy-3.2.0/minecraft-proxy-3.2.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-proxy-3.2.0/minecraft-proxy-3.2.0.tgz
     version: 3.2.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-bungeecord
+          url: https://github.com/streber42/docker-bungeecord
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/bungeecord
     apiVersion: v1
@@ -1965,7 +1965,7 @@ entries:
     created: "2022-05-22T21:00:16.139119557Z"
     description: Minecraft proxy server (BungeeCord, Waterfall, Velocity, etc.)
     digest: 39b34bbff94ac91e4a29714f1b8737e813376891462e41a8508fc73da5dfc8bf
-    home: https://github.com/itzg/minecraft-server-charts
+    home: https://github.com/streber42/minecraft-server-charts
     keywords:
     - proxy
     - game
@@ -1981,14 +1981,14 @@ entries:
       name: itzg
     name: minecraft-proxy
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-proxy-3.1.0/minecraft-proxy-3.1.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-proxy-3.1.0/minecraft-proxy-3.1.0.tgz
     version: 3.1.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-bungeecord
+          url: https://github.com/streber42/docker-bungeecord
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/bungeecord
     apiVersion: v1
@@ -1996,7 +1996,7 @@ entries:
     created: "2022-05-05T20:15:01.07950637Z"
     description: Minecraft proxy server (BungeeCord, Waterfall, Velocity, etc.)
     digest: a58bd679b6858fd742bc173f8a0b461557f86359765aad165ca64987d65f34af
-    home: https://github.com/itzg/minecraft-server-charts
+    home: https://github.com/streber42/minecraft-server-charts
     keywords:
     - proxy
     - game
@@ -2012,14 +2012,14 @@ entries:
       name: itzg
     name: minecraft-proxy
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-proxy-3.0.0/minecraft-proxy-3.0.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-proxy-3.0.0/minecraft-proxy-3.0.0.tgz
     version: 3.0.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-bungeecord
+          url: https://github.com/streber42/docker-bungeecord
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/bungeecord
     apiVersion: v1
@@ -2027,7 +2027,7 @@ entries:
     created: "2022-03-18T03:03:59.294010972Z"
     description: Minecraft proxy server (BungeeCord, Waterfall, Velocity, etc.)
     digest: 5426a65d9853c640409f1e203dce6807311f6f0b56e0d1cbe9c359c698d07b67
-    home: https://github.com/itzg/minecraft-server-charts
+    home: https://github.com/streber42/minecraft-server-charts
     keywords:
     - proxy
     - game
@@ -2043,14 +2043,14 @@ entries:
       name: itzg
     name: minecraft-proxy
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-proxy-2.6.0/minecraft-proxy-2.6.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-proxy-2.6.0/minecraft-proxy-2.6.0.tgz
     version: 2.6.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-bungeecord
+          url: https://github.com/streber42/docker-bungeecord
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/bungeecord
     apiVersion: v1
@@ -2058,7 +2058,7 @@ entries:
     created: "2022-03-06T21:43:45.298395048Z"
     description: Minecraft proxy server (BungeeCord, Waterfall, Velocity, etc.)
     digest: a4ca2f240d2b761f26d2bb3f97fead0e30588e8e0bbedfc938a3a78b6bd4dd7d
-    home: https://github.com/itzg/minecraft-server-charts
+    home: https://github.com/streber42/minecraft-server-charts
     keywords:
     - proxy
     - game
@@ -2074,14 +2074,14 @@ entries:
       name: itzg
     name: minecraft-proxy
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-proxy-2.5.1/minecraft-proxy-2.5.1.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-proxy-2.5.1/minecraft-proxy-2.5.1.tgz
     version: 2.5.1
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-bungeecord
+          url: https://github.com/streber42/docker-bungeecord
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/bungeecord
     apiVersion: v1
@@ -2089,7 +2089,7 @@ entries:
     created: "2022-01-26T20:00:09.769760925Z"
     description: Minecraft proxy server (BungeeCord, Waterfall, Velocity, etc.)
     digest: b137f4542f94ad81f5b31f41f2139e39158a3a61600be6b88b14aaf8061a34db
-    home: https://github.com/itzg/minecraft-server-charts
+    home: https://github.com/streber42/minecraft-server-charts
     keywords:
     - proxy
     - game
@@ -2105,14 +2105,14 @@ entries:
       name: itzg
     name: minecraft-proxy
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-proxy-2.5.0/minecraft-proxy-2.5.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-proxy-2.5.0/minecraft-proxy-2.5.0.tgz
     version: 2.5.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-bungeecord
+          url: https://github.com/streber42/docker-bungeecord
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/bungeecord
     apiVersion: v1
@@ -2120,7 +2120,7 @@ entries:
     created: "2021-12-09T01:58:21.252718289Z"
     description: Minecraft proxy server (BungeeCord, Waterfall, Velocity, etc.)
     digest: 0d0f1a3faf594ed639ed404b4f35c54c3553864f02b0c77cb2c4b4c9d7edeb66
-    home: https://github.com/itzg/minecraft-server-charts
+    home: https://github.com/streber42/minecraft-server-charts
     keywords:
     - proxy
     - game
@@ -2136,14 +2136,14 @@ entries:
       name: itzg
     name: minecraft-proxy
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-proxy-2.4.0/minecraft-proxy-2.4.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-proxy-2.4.0/minecraft-proxy-2.4.0.tgz
     version: 2.4.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-bungeecord
+          url: https://github.com/streber42/docker-bungeecord
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/bungeecord
     apiVersion: v1
@@ -2151,7 +2151,7 @@ entries:
     created: "2021-11-22T23:57:06.919189292Z"
     description: Minecraft proxy server (BungeeCord, Waterfall, Velocity, etc.)
     digest: fb9f05b5ec32fbea552f0894598a68b79b8f900843f79765f2e13695c815786c
-    home: https://github.com/itzg/minecraft-server-charts
+    home: https://github.com/streber42/minecraft-server-charts
     keywords:
     - proxy
     - game
@@ -2167,14 +2167,14 @@ entries:
       name: itzg
     name: minecraft-proxy
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-proxy-2.3.0/minecraft-proxy-2.3.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-proxy-2.3.0/minecraft-proxy-2.3.0.tgz
     version: 2.3.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-bungeecord
+          url: https://github.com/streber42/docker-bungeecord
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/bungeecord
     apiVersion: v1
@@ -2182,7 +2182,7 @@ entries:
     created: "2021-06-12T02:52:06.854216711Z"
     description: Minecraft proxy server (BungeeCord, Waterfall, Velocity, etc.)
     digest: df4c22e1e6bd31c767691f38e17bd6ad9e039cc3d3193c00aa790816d0c75cfc
-    home: https://github.com/itzg/minecraft-server-charts
+    home: https://github.com/streber42/minecraft-server-charts
     keywords:
     - proxy
     - game
@@ -2198,14 +2198,14 @@ entries:
       name: itzg
     name: minecraft-proxy
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-proxy-2.2.0/minecraft-proxy-2.2.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-proxy-2.2.0/minecraft-proxy-2.2.0.tgz
     version: 2.2.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-bungeecord
+          url: https://github.com/streber42/docker-bungeecord
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/bungeecord
     apiVersion: v1
@@ -2213,7 +2213,7 @@ entries:
     created: "2021-05-26T21:55:57.673841488Z"
     description: Minecraft proxy server (BungeeCord, Waterfall, Velocity, etc.)
     digest: d931920a3a33ad485f0237a43234295a49727f6c2ebd1a17f09670d4732879d1
-    home: https://github.com/itzg/minecraft-server-charts
+    home: https://github.com/streber42/minecraft-server-charts
     keywords:
     - proxy
     - game
@@ -2229,14 +2229,14 @@ entries:
       name: itzg
     name: minecraft-proxy
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-proxy-2.1.0/minecraft-proxy-2.1.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-proxy-2.1.0/minecraft-proxy-2.1.0.tgz
     version: 2.1.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-bungeecord
+          url: https://github.com/streber42/docker-bungeecord
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/bungeecord
     apiVersion: v1
@@ -2244,7 +2244,7 @@ entries:
     created: "2021-05-03T19:09:25.679811235Z"
     description: Minecraft proxy server (BungeeCord, Waterfall, Velocity, etc.)
     digest: bb28bbab0d8a74abfbe4639ce8b0a6b9b6ae46586e08199fe1ab2ab2500ec1fb
-    home: https://github.com/itzg/minecraft-server-charts
+    home: https://github.com/streber42/minecraft-server-charts
     keywords:
     - proxy
     - game
@@ -2260,14 +2260,14 @@ entries:
       name: itzg
     name: minecraft-proxy
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-proxy-2.0.3/minecraft-proxy-2.0.3.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-proxy-2.0.3/minecraft-proxy-2.0.3.tgz
     version: 2.0.3
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-bungeecord
+          url: https://github.com/streber42/docker-bungeecord
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/bungeecord
     apiVersion: v1
@@ -2275,7 +2275,7 @@ entries:
     created: "2021-02-23T03:20:17.667821441Z"
     description: Minecraft proxy server (BungeeCord, Waterfall, Velocity, etc.)
     digest: 77832fcdd3cba631c713984ed81dae72489756ec36a7526c32a57a7a9e35cea6
-    home: https://github.com/itzg/minecraft-server-charts
+    home: https://github.com/streber42/minecraft-server-charts
     keywords:
     - proxy
     - game
@@ -2291,14 +2291,14 @@ entries:
       name: itzg
     name: minecraft-proxy
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-proxy-2.0.1/minecraft-proxy-2.0.1.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-proxy-2.0.1/minecraft-proxy-2.0.1.tgz
     version: 2.0.1
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-bungeecord
+          url: https://github.com/streber42/docker-bungeecord
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/bungeecord
     apiVersion: v1
@@ -2306,7 +2306,7 @@ entries:
     created: "2021-02-19T01:44:36.715601273Z"
     description: Minecraft proxy server (BungeeCord, Waterfall, Velocity, etc.)
     digest: bb0a5e2915b4c37bb2f24e4ecd0d7f0266cd11522bddec5b02759cdfee439e06
-    home: https://github.com/itzg/minecraft-server-charts
+    home: https://github.com/streber42/minecraft-server-charts
     keywords:
     - proxy
     - game
@@ -2322,15 +2322,15 @@ entries:
       name: itzg
     name: minecraft-proxy
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/minecraft-proxy-1.1/minecraft-proxy-1.1.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/minecraft-proxy-1.1/minecraft-proxy-1.1.tgz
     version: "1.1"
   rcon-web-admin:
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-rcon-web-admin
+          url: https://github.com/streber42/docker-rcon-web-admin
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/rcon
     apiVersion: v2
@@ -2347,15 +2347,15 @@ entries:
       name: eaglesemanation
     name: rcon-web-admin
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     type: application
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/rcon-web-admin-1.0.0/rcon-web-admin-1.0.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/rcon-web-admin-1.0.0/rcon-web-admin-1.0.0.tgz
     version: 1.0.0
   - annotations:
       artifacthub.io/links: |
         - name: Image source
-          url: https://github.com/itzg/docker-rcon-web-admin
+          url: https://github.com/streber42/docker-rcon-web-admin
         - name: Image DockerHub
           url: https://hub.docker.com/r/itzg/rcon
     apiVersion: v2
@@ -2372,9 +2372,9 @@ entries:
       name: eaglesemanation
     name: rcon-web-admin
     sources:
-    - https://github.com/itzg/minecraft-server-charts
+    - https://github.com/streber42/minecraft-server-charts
     type: application
     urls:
-    - https://github.com/itzg/minecraft-server-charts/releases/download/rcon-web-admin-0.1.0/rcon-web-admin-0.1.0.tgz
+    - https://github.com/streber42/minecraft-server-charts/releases/download/rcon-web-admin-0.1.0/rcon-web-admin-0.1.0.tgz
     version: 0.1.0
 generated: "2020-06-10T23:31:07.189813819Z"
