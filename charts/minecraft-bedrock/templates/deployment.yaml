@@ -31,6 +31,7 @@ spec:
         {{- end }}
       {{- end }}
     spec:
+      hostNetwork: true
       {{- if .Values.image.pullSecret }}
       imagePullSecrets:
         - name: {{ .Values.image.pullSecret }}
