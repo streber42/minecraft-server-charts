@@ -1,13 +1,17 @@
-{{- if and .Values.persistence.dataDir.enabled (not .Values.persistence.dataDir.existingClaim ) -}}
+{{- if and .Values.persistence.dataDir.enabled (not .Values.persistence.dataDir.existingClaim ) (not .Values.workloadAsStatefulSet) -}}
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
   name: {{ template "minecraft.fullname" . }}-datadir
+  namespace: {{ .Release.Namespace }}
   labels:
     app: {{ template "minecraft.fullname" . }}
     chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
     release: "{{ .Release.Name }}"
     heritage: "{{ .Release.Service }}"
+  {{- with .Values.persistence.labels  }}
+  {{ toYaml . | nindent 4 }}
+  {{- end }}
   annotations:
   {{- if .Values.persistence.storageClass }}
     volume.beta.kubernetes.io/storage-class: {{ .Values.persistence.storageClass | quote }}
@@ -16,7 +20,7 @@ metadata:
   {{- end }}
 spec:
   accessModes:
-    - ReadWriteOnce
+    {{- .Values.persistence.dataDir.accessModes | toYaml | nindent 4 }}
   resources:
     requests:
       storage: {{ .Values.persistence.dataDir.Size | quote }}

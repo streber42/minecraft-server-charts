@@ -2,11 +2,15 @@ apiVersion: v1
 kind: Service
 metadata:
   name: {{ template "minecraft.fullname" . }}
+  namespace: {{ .Release.Namespace }}
   labels:
     app: {{ template "minecraft.fullname" . }}
     chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
     release: "{{ .Release.Name }}"
     heritage: "{{ .Release.Service }}"
+  {{- with .Values.serviceLabels  }}
+  {{ toYaml . | nindent 4 }}
+  {{- end }}
   {{- if .Values.serviceAnnotations }}
   annotations:
     {{- range $key, $value := .Values.serviceAnnotations }}
@@ -33,11 +37,20 @@ spec:
   {{- end }}
   ports:
   - name: minecraft
-    port: 19132
+    port: {{ .Values.minecraftServer.serverPort }}
     targetPort: minecraft
     {{- if .Values.minecraftServer.nodePort }}
     nodePort: {{ .Values.minecraftServer.nodePort }}
     {{- end }}
     protocol: UDP
+  {{- if .Values.minecraftServer.enableSSH }}
+  - name: minecraft-ssh
+    port: {{ default "2222" .Values.minecraftServer.exposedPortSSH }}
+    targetPort: minecraft-ssh
+    {{- if .Values.minecraftServer.nodePortSSH }}
+    nodePort: {{ .Values.minecraftServer.nodePortSSH }}
+    {{- end }}
+    protocol: TCP
+  {{ end }}
   selector:
     app: {{ template "minecraft.fullname" . }}

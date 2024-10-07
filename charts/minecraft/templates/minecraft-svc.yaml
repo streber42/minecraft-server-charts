@@ -2,11 +2,20 @@ apiVersion: v1
 kind: Service
 metadata:
   name: {{ template "minecraft.fullname" . }}
+  namespace: {{ .Release.Namespace }}
   labels:
     app: {{ template "minecraft.fullname" . }}
     chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
     release: "{{ .Release.Name }}"
     heritage: "{{ .Release.Service }}"
+    app.kubernetes.io/name: "{{ .Chart.Name }}"
+    app.kubernetes.io/instance: {{ template "minecraft.fullname" . }}
+    app.kubernetes.io/version: "{{ .Chart.Version }}"
+  {{- if .Values.serviceLabels }}
+    {{- range $key, $value := .Values.serviceLabels}}
+    {{ $key }}: {{ $value | quote }}
+    {{- end }}
+  {{- end }}
   annotations:
 {{ toYaml .Values.serviceAnnotations | indent 4 }}
 spec:
@@ -16,6 +25,9 @@ spec:
   type: {{ .Values.minecraftServer.serviceType }}
   {{- if .Values.minecraftServer.loadBalancerIP }}
   loadBalancerIP: {{ .Values.minecraftServer.loadBalancerIP }}
+  {{- end }}
+  {{- if .Values.minecraftServer.loadBalancerClass }}
+  loadBalancerClass: {{ .Values.minecraftServer.loadBalancerClass }}
   {{- end }}
   {{- if .Values.minecraftServer.loadBalancerSourceRanges }}
   loadBalancerSourceRanges:
@@ -63,3 +75,6 @@ spec:
       {{- end }}
     {{- end }}
   {{- end }}
+{{- if .Values.minecraftServer.extraServiceSpec }}
+{{ toYaml .Values.minecraftServer.extraServiceSpec | indent 2 }}
+{{- end }}

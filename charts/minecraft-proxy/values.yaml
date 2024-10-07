@@ -6,6 +6,8 @@ image:
 
 imagePullSecret: ""
 
+replicaCount: 1
+
 ## Configure resource requests and limits
 ## ref: http://kubernetes.io/docs/user-guide/compute-resources/
 ##
@@ -14,11 +16,21 @@ resources:
     memory: 512Mi
     cpu: 500m
 
-securityContext:
-  # Security context settings
+podSecurityContext:
   runAsUser: 1000
-  runAsGroup: 1000
+  runAsGroup: 3000
+  runAsNonRoot: true
   fsGroup: 2000
+  seccompProfile:
+    type: RuntimeDefault
+
+securityContext:
+  capabilities:
+    drop:
+      - ALL
+  readOnlyRootFilesystem: true
+  allowPrivilegeEscalation: false
+
 # Most of these map to environment variables. See Minecraft for details:
 # https://hub.docker.com/r/itzg/docker-bungeecord/
 livenessProbe:
@@ -73,6 +85,16 @@ sidecarContainers: []
 #           - vers=4
 extraVolumes: []
 
+# Extra fields to set on the pod
+#
+# Fields set here will be added to the end of the Pod spec
+# Can include any fields from https://kubernetes.io/docs/reference/kubernetes-api/workload-resources/pod-v1/#PodSpec
+# that are not already set by the chart.
+#
+# The value of the field will be interpretted as a template.
+extraPodSpec: {}
+#   priorityClassName: 'my-priority-class'
+
 minecraftProxy:
   # This can be one of "BUNGEECORD", "WATERFALL", "VELOCITY", "CUSTOM"
   type: BUNGEECORD
@@ -111,6 +133,8 @@ minecraftProxy:
   # loadBalancerSourceRanges: []
   ## Set the externalTrafficPolicy in the Service to either Cluster or Local
   # externalTrafficPolicy: Cluster
+  ## Set the ipFamilyPolicy in the service to SingleStack, PreferDualStack, RequireDualStack
+  # ipFamilyPolicy: SingleStack
   externalIPs:
   # If set, this overrides the default config file path
   configFilePath: /server/config.yml
@@ -169,44 +193,48 @@ minecraftProxy:
     enabled: false
     port: 25575
     password: "CHANGEME!"
+    existingSecret:
+    secretKey: rcon-password
     serviceType: LoadBalancer
     loadBalancerIP:
     # loadBalancerSourceRanges: []
     ## Set the externalTrafficPolicy in the Service to either Cluster or Local
     # externalTrafficPolicy: Cluster
+    ## Set the ipFamilyPolicy in the service to SingleStack, PreferDualStack, RequireDualStack
+    # ipFamilyPolicy: SingleStack
 
   extraPorts: []
-    # These options allow you to expose another port from the Minecraft proxy, plugins such
-    # as NuVotifier (8192) will require this for incoming webhooks
-    #
-    # - name: vote
-    #   containerPort: 8192
-    #   protocol: TCP
-    #   service:
-    #     enabled: false
-    #     embedded: false
-    #     annotations: {}
-    #     type: ClusterIP
-    #     ## Set the external port if the rcon serviceType is NodePort
-    ##     nodePort:
-    #     loadBalancerIP: ""
-    #     loadBalancerSourceRanges: []
-    #     externalTrafficPolicy: Cluster
-    #     port: 8192
-    #   ingress:
-    #     ingressClassName: nginx
-    #     enabled: false
-    #     annotations:
-    ## Deprecated way for specifying the ingressClass. Kube.version < 1.18
-    ##       kubernetes.io/ingress.class: nginx
-    #       kubernetes.io/tls-acme: "true"
-    #     hosts:
-    #       - name: vote.local
-    #         path: /
-    #     tls:
-    #       - secretName: vote-tls
-    #         hosts:
-    #           - vote.local
+  # These options allow you to expose another port from the Minecraft proxy, plugins such
+  # as NuVotifier (8192) will require this for incoming webhooks
+  #
+  # - name: vote
+  #   containerPort: 8192
+  #   protocol: TCP
+  #   service:
+  #     enabled: false
+  #     embedded: false
+  #     annotations: {}
+  #     type: ClusterIP
+  #     ## Set the external port if the rcon serviceType is NodePort
+  ##     nodePort:
+  #     loadBalancerIP: ""
+  #     loadBalancerSourceRanges: []
+  #     externalTrafficPolicy: Cluster
+  #     port: 8192
+  #   ingress:
+  #     ingressClassName: nginx
+  #     enabled: false
+  #     annotations:
+  ## Deprecated way for specifying the ingressClass. Kube.version < 1.18
+  ##       kubernetes.io/ingress.class: nginx
+  #       kubernetes.io/tls-acme: "true"
+  #     hosts:
+  #       - name: vote.local
+  #         path: /
+  #     tls:
+  #       - secretName: vote-tls
+  #         hosts:
+  #           - vote.local
 
 ## Additional minecraft container environment variables
 ## Values can be either variable values or `valueFrom` yaml
@@ -245,3 +273,9 @@ rconServiceAnnotations: {}
 # Can allow plugins access to the kubernetes api using a service account
 # https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/
 serviceAccountName:
+
+# dnsPolicy: ClusterFirst
+# dnsConfig:
+#   options:
+#   - name: ndots
+#     value: '1'

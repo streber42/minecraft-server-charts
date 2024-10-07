@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: {{ template "proxy.fullname" . }}
+  namespace: {{ .Release.Namespace }}
   annotations: {{ toYaml .Values.deploymentAnnotations | nindent 4 }}
   labels:
     app: {{ template "proxy.fullname" . }}
@@ -9,6 +10,7 @@ metadata:
     release: "{{ .Release.Name }}"
     heritage: "{{ .Release.Service }}"
 spec:
+  replicas: {{ .Values.replicaCount }}
   strategy:
     type: {{ .Values.strategyType }}
   selector:
@@ -27,14 +29,22 @@ spec:
       imagePullSecrets:
         - name: {{ .Values.image.pullSecret }}
       {{- end }}
+      {{- if .Values.dnsPolicy }}
+      dnsPolicy: {{ .Values.dnsPolicy}}
+      {{- end }}
+      {{- if .Values.dnsConfig }}
+      dnsConfig: 
+        {{- toYaml .Values.dnsConfig | nindent 8 }}
+      {{- end }}
       securityContext:
-        runAsUser: {{ .Values.securityContext.runAsUser }}
-        fsGroup: {{ .Values.securityContext.fsGroup }}
+        {{- toYaml .Values.podSecurityContext | nindent 8 }}
       initContainers: {{- toYaml .Values.initContainers | nindent 8 }}
       containers:
       - name: {{ template "proxy.fullname" . }}
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
         imagePullPolicy: Always
+        tty: true
+        stdin: true
         resources: {{ toYaml .Values.resources | nindent 10 }}
         {{- if .Values.startupProbe.enabled }}
         startupProbe:
@@ -110,8 +120,8 @@ spec:
         - name: RCON_PASSWORD
           valueFrom:
             secretKeyRef:
-              name: {{ template "proxy.fullname" . }}
-              key: rcon-password
+              name: {{ .Values.minecraftProxy.rcon.existingSecret | default (printf "%s-rcon" (include "proxy.fullname" .)) }}
+              key: {{ .Values.minecraftProxy.rcon.secretKey | default "rcon-password" }}
         {{- else }}
         - name: ENABLE_RCON
           value: "false"
@@ -151,6 +161,8 @@ spec:
         {{- end }}
         {{- end }}
         volumeMounts:
+        - name: tmp
+          mountPath: /tmp
         - name: datadir
           mountPath: /server
         {{- if .Values.minecraftProxy.config }}
@@ -163,10 +175,14 @@ spec:
         {{-     toYaml .volumeMounts | nindent 8 }}
         {{-   end }}
         {{- end }}
+        securityContext:
+          {{- toYaml .Values.securityContext | nindent 10 }}
       {{- if .Values.sidecarContainers }}
       {{- toYaml .Values.sidecarContainers | nindent 6 }}
       {{- end }}
       volumes:
+      - name: tmp
+        emptyDir: {}
       - name: datadir
       {{- if .Values.persistence.dataDir.enabled }}
         persistentVolumeClaim:
@@ -194,4 +210,7 @@ spec:
     {{- end }}
     {{- if .Values.tolerations }}
       tolerations: {{ toYaml .Values.tolerations | nindent 8 }}
+    {{- end }}
+    {{- range $key, $value := .Values.extraPodSpec }}
+      {{ $key }}: {{ tpl $value $ }}
     {{- end }}

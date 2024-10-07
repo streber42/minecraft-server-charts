@@ -24,3 +24,40 @@ We truncate at 63 chars because some Kubernetes name fields are limited to this 
 {{- print "networking.k8s.io/v1" -}}
 {{- end }}
 {{- end -}}
+
+{{- define "minecraft.envMap" }}
+{{- if index . 1 }}
+        - name: {{ index . 0 }}
+          value: {{ index . 1 | quote }}
+{{- end }}
+{{- end }}
+
+{{- define "minecraft.envBoolMap" }}
+{{- if ne (toString (index . 1)) "default" }}
+        - name: {{ index . 0 }}
+          value: {{ index . 1 | quote }}
+{{- end }}
+{{- end }}
+
+{{- define "tplRender" -}}
+{{- $value := typeIs "string" .value | ternary .value (.value | toYaml) }}
+{{- if contains "{{" (toJson .value) }}
+  {{- if .scope }}
+      {{- tpl (cat "{{- with $.RelativeScope -}}" $value "{{- end }}") (merge (dict "RelativeScope" .scope) .context) }}
+  {{- else }}
+    {{- tpl $value .context }}
+  {{- end }}
+{{- else }}
+    {{- $value }}
+{{- end }}
+{{- end -}}
+
+{{- define "isResticWithRclone" -}}
+{{- if .Values.mcbackup -}}
+{{-   if and (eq .Values.mcbackup.backupMethod "restic") (hasPrefix "rclone" .Values.mcbackup.resticRepository) }}
+{{-   printf "true" }}
+{{-   else }}
+{{-   printf "false" }}
+{{-   end }}
+{{- end }}
+{{- end -}}
